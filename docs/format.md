@@ -88,7 +88,7 @@ ds = HumanCOINDataset(
 <p align="center">
   <img src="/assets/read-path.png" alt="Read path: master index and independent stream clocks" width="700">
   <br>
-  <sub>Read path (paper Fig. 6b): the master index defines frame n; each stream is resolved from its own clock. Figure from the paper.</sub>
+  <sub>Read path (technical report Fig. 6b): the master index defines frame n; each stream is resolved from its own clock. Figure from the technical report.</sub>
 </p>
 
 ## Depth, audio and missing data

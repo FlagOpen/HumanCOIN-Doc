@@ -3,7 +3,7 @@
 <p align="center">
   <img src="/assets/tier-kits.jpg" alt="按层级划分的采集设备" width="100%">
   <br>
-  <sub>三套设备：L1 头环；L2 增加肌电臂环；L3 增加脑电、腕部相机、眼动仪、手套与 tracker。图源：论文。</sub>
+  <sub>三套设备：L1 头环；L2 增加肌电臂环；L3 增加脑电、腕部相机、眼动仪、手套与 tracker。图源：技术报告。</sub>
 </p>
 
 ## 硬件配置

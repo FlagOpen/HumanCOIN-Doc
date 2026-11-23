@@ -63,7 +63,7 @@ humancoin-visualize-web --help
 
 - Data: CC BY-NC 4.0 — research and non-commercial use.
 - Code: Apache-2.0.
-- Paper: [arXiv:2611.26434](https://arxiv.org/abs/2611.26434).
+- Technical report: [arXiv:2611.26434](https://arxiv.org/abs/2611.26434).
 
 ## Collaborating institutions
 

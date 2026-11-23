@@ -63,7 +63,7 @@ humancoin-visualize-web --help
 
 - 数据：CC BY-NC 4.0，仅限研究与非商业用途。
 - 代码：Apache-2.0。
-- 论文：[arXiv:2611.26434](https://arxiv.org/abs/2611.26434)。
+- 技术报告：[arXiv:2611.26434](https://arxiv.org/abs/2611.26434)。
 
 ## 合作机构
 

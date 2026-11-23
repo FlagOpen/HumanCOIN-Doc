@@ -88,7 +88,7 @@ ds = HumanCOINDataset(
 <p align="center">
   <img src="/assets/read-path.png" alt="读取路径：主索引与各流独立时钟" width="700">
   <br>
-  <sub>读取路径（论文 Fig. 6b）：主索引给出第 n 帧，每一路按自己的时钟解析。图源：论文。</sub>
+  <sub>读取路径（技术报告 Fig. 6b）：主索引给出第 n 帧，每一路按自己的时钟解析。图源：技术报告。</sub>
 </p>
 
 ## 深度、音频与缺失值

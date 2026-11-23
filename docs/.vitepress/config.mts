@@ -88,9 +88,10 @@ export default defineConfig({
     logo: '/assets/wordmark.png',
     siteTitle: false,
     nav: [
+      { text: 'Home', link: 'https://flagopen.github.io/HumanCOIN/' },
       { text: 'Docs', link: '/getting-started' },
       { text: 'Data portal', link: 'https://flagopen.github.io/HumanCOIN-DataManager/' },
-      { text: 'Paper', link: 'https://arxiv.org/abs/2611.26434' },
+      { text: 'Technical report', link: 'https://arxiv.org/abs/2611.26434' },
       { text: 'GitHub', link: 'https://github.com/FlagOpen/HumanCOIN' },
     ],
     sidebar: enSidebar,
@@ -121,9 +122,10 @@ export default defineConfig({
         logo: '/assets/wordmark.png',
         siteTitle: false,
         nav: [
+          { text: '主页', link: 'https://flagopen.github.io/HumanCOIN/' },
           { text: '文档', link: '/zh/getting-started' },
           { text: '数据门户', link: 'https://flagopen.github.io/HumanCOIN-DataManager/' },
-          { text: '论文', link: 'https://arxiv.org/abs/2611.26434' },
+          { text: '技术报告', link: 'https://arxiv.org/abs/2611.26434' },
           { text: 'GitHub', link: 'https://github.com/FlagOpen/HumanCOIN' },
         ],
         sidebar: zhSidebar,

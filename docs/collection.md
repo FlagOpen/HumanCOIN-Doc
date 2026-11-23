@@ -3,7 +3,7 @@
 <p align="center">
   <img src="/assets/tier-kits.jpg" alt="Instrumentation by tier" width="100%">
   <br>
-  <sub>The three kits: L1 headbands; L2 adds EMG armbands; L3 adds EEG, wrist cameras, eye tracker, gloves and trackers. Figure from the paper.</sub>
+  <sub>The three kits: L1 headbands; L2 adds EMG armbands; L3 adds EEG, wrist cameras, eye tracker, gloves and trackers. Figure from the technical report.</sub>
 </p>
 
 ## Hardware configuration
