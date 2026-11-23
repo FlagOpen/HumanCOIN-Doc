@@ -65,14 +65,37 @@ const zhSidebar = [
   },
 ]
 
+// GitHub Pages serves the site from a sub-path, and VitePress does not prefix
+// `head` links with `base`, so the icon URLs are built from it explicitly.
+const base = '/HumanCOIN-Doc/'
+
+// The favicon is the HumanCOIN mascot, mirroring the project homepage
+// (https://flagopen.github.io/HumanCOIN/) so the tab, the bookmark and the
+// home-screen shortcut all carry the same mark. The dark-scheme PNG is the
+// white-ink variant; browsers that ignore `media` on an icon fall back to the
+// black one.
+const icons = [
+  ['link', { rel: 'icon', href: `${base}favicon.ico`, sizes: 'any' }],
+  ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}favicon-32.png` }],
+  [
+    'link',
+    {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '32x32',
+      href: `${base}favicon-32-dark.png`,
+      media: '(prefers-color-scheme: dark)',
+    },
+  ],
+  ['link', { rel: 'apple-touch-icon', href: `${base}apple-touch-icon.png` }],
+]
+
 export default defineConfig({
   lang: 'en-US',
   title: 'HumanCOIN',
   description: 'Documentation for the HumanCOIN egocentric manipulation dataset.',
-  base: '/HumanCOIN-Doc/',
-  head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/HumanCOIN-Doc/assets/wordmark.png' }],
-  ],
+  base,
+  head: icons,
   markdown: {
     config: (md) => md.use(katex, { throwOnError: false, errorColor: '#dc2626' }),
   },
