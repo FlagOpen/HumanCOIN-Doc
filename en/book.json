@@ -1,0 +1,9 @@
+{
+  "title": "HumanCOIN Documentation",
+  "description": "Documentation for the HumanCOIN egocentric manipulation dataset.",
+  "author": "BAAI AhaData Group",
+  "logo": "assets/wordmark.png",
+  "styles": {
+    "website": "styles/website.css"
+  }
+}

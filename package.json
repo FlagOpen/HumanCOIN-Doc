@@ -1,0 +1,14 @@
+{
+  "name": "humancoin-doc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HumanCOIN documentation site",
+  "scripts": {
+    "serve": "honkit serve --port 4000",
+    "build": "honkit build"
+  },
+  "devDependencies": {
+    "honkit": "7.0.1",
+    "honkit-plugin-katex": "1.1.7"
+  }
+}
