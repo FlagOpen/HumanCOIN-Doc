@@ -7,7 +7,7 @@ description: 一个 12,500 小时的第一视角操作数据集，记录注视�
 hero:
   name: HumanCOIN
   text: 让人的意图，成为数据。
-  tagline: 12,500 小时第一视角操作数据。三层测量深度。注视、表面肌电与脑电，共享一套任务本体与一条时间轴。
+  tagline: 12,500 小时第一视角操作数据。三层测量深度，让动作背后的意图可观测——共享一套任务本体与一条时间轴。
   actions:
     - theme: brand
       text: 快速开始
@@ -15,25 +15,44 @@ hero:
     - theme: alt
       text: 数据门户
       link: https://flagopen.github.io/HumanCOIN-DataManager/
-
-features:
-  - icon: ⏱
-    title: 12,500 小时
-    details: 约 13.5 亿个主帧，覆盖 38 类场景和 6 个采集点。
-  - icon: 🎬
-    title: 38 类场景
-    details: 5 个功能区加 1 个残差类，全部来自真实环境。
-  - icon: 🧠
-    title: 3 个意图层级
-    details: L1 注意、L2 用力、L3 认知，按设备嵌套。
-  - icon: 🧩
-    title: LeRobot 风格
-    details: 每个数据流一个 Parquet，外加主索引、MP4 与 WAV。
 ---
 
-<div class="hc-home-cover">
-  <img src="/assets/cover.jpg" alt="HumanCOIN 报告封面">
-  <p class="caption">一图看全：三层测量、代理信号与背后的场景。图源：报告封面。</p>
+<div class="hc-film">
+  <div class="hc-film-head">
+    <p class="hc-eyebrow">技术报告影片 · 3:42</p>
+    <h2>HumanCOIN：12,500 小时第一视角操作人类意图数据集</h2>
+    <p class="hc-film-meta">BAAI · AhaData Group · 2026 年 11 月</p>
+  </div>
+  <div class="hc-film-frame">
+    <video controls autoplay muted loop playsinline preload="metadata" poster="https://flagopen.github.io/HumanCOIN/film/film-poster.jpg" aria-label="HumanCOIN 技术报告影片">
+      <source src="https://flagopen.github.io/HumanCOIN/film/HumanCOIN-film.mp4" type="video/mp4">
+      当前浏览器不支持视频播放。<a href="https://flagopen.github.io/HumanCOIN/film/HumanCOIN-film.mp4">直接打开影片</a>。
+    </video>
+  </div>
+  <p class="hc-caption">三分钟浏览语料：三层测量、真实场景，以及让意图可观测的注视、肌电与脑电信号。</p>
+</div>
+
+<div class="hc-stats">
+  <div class="hc-stat">
+    <strong>≈12,500<span>h</span></strong>
+    <p>录制规模</p>
+    <small>计划总量，三层采集</small>
+  </div>
+  <div class="hc-stat">
+    <strong>7</strong>
+    <p>传感器模态</p>
+    <small>互补通道</small>
+  </div>
+  <div class="hc-stat">
+    <strong>3</strong>
+    <p>采集层级</p>
+    <small>广度 × 密度</small>
+  </div>
+  <div class="hc-stat">
+    <strong>1</strong>
+    <p>时空基准</p>
+    <small>共享时钟与坐标系</small>
+  </div>
 </div>
 
 <div class="hc-section">

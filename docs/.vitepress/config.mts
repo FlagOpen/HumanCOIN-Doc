@@ -17,23 +17,20 @@ const enSidebar = [
       { text: 'What is in the data', link: '/data' },
       { text: 'On-disk format', link: '/format' },
       { text: 'Reading and alignment', link: '/reading' },
-    ],
-  },
-  {
-    text: 'Download',
-    items: [{ text: 'Download and access', link: '/download' }],
-  },
-  {
-    text: 'Use',
-    items: [
-      { text: 'Visualization', link: '/visualization' },
-      { text: 'Using the data', link: '/usage' },
       { text: 'Collection and processing', link: '/collection' },
     ],
   },
   {
-    text: 'Reference',
-    items: [{ text: 'Reference', link: '/reference' }],
+    text: 'Download and use',
+    items: [
+      { text: 'Download and access', link: '/download' },
+      { text: 'Visualization', link: '/visualization' },
+      { text: 'Using the data', link: '/usage' },
+    ],
+  },
+  {
+    text: 'About',
+    items: [{ text: 'About', link: '/reference' }],
   },
 ]
 
@@ -51,23 +48,20 @@ const zhSidebar = [
       { text: '数据里有什么', link: '/zh/data' },
       { text: '磁盘上的格式', link: '/zh/format' },
       { text: '读取与对齐', link: '/zh/reading' },
-    ],
-  },
-  {
-    text: '下载',
-    items: [{ text: '下载与访问', link: '/zh/download' }],
-  },
-  {
-    text: '使用',
-    items: [
-      { text: '可视化', link: '/zh/visualization' },
-      { text: '使用数据', link: '/zh/usage' },
       { text: '采集与处理', link: '/zh/collection' },
     ],
   },
   {
-    text: '参考',
-    items: [{ text: '参考', link: '/zh/reference' }],
+    text: '下载与使用',
+    items: [
+      { text: '下载与访问', link: '/zh/download' },
+      { text: '可视化', link: '/zh/visualization' },
+      { text: '使用数据', link: '/zh/usage' },
+    ],
+  },
+  {
+    text: '关于',
+    items: [{ text: '关于', link: '/zh/reference' }],
   },
 ]
 
@@ -89,7 +83,6 @@ export default defineConfig({
     siteTitle: false,
     nav: [
       { text: 'Home', link: 'https://flagopen.github.io/HumanCOIN/' },
-      { text: 'Docs', link: '/getting-started' },
       { text: 'Data portal', link: 'https://flagopen.github.io/HumanCOIN-DataManager/' },
       { text: 'Technical report', link: 'https://arxiv.org/abs/2611.26434' },
       { text: 'GitHub', link: 'https://github.com/FlagOpen/HumanCOIN' },
@@ -123,7 +116,6 @@ export default defineConfig({
         siteTitle: false,
         nav: [
           { text: '主页', link: 'https://flagopen.github.io/HumanCOIN/' },
-          { text: '文档', link: '/zh/getting-started' },
           { text: '数据门户', link: 'https://flagopen.github.io/HumanCOIN-DataManager/' },
           { text: '技术报告', link: 'https://arxiv.org/abs/2611.26434' },
           { text: 'GitHub', link: 'https://github.com/FlagOpen/HumanCOIN' },

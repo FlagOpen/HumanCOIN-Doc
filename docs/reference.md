@@ -1,4 +1,6 @@
-# Reference
+# About
+
+CLI reference, dataset comparison, FAQ, citation and license — plus the institutions behind HumanCOIN.
 
 ## CLI
 

@@ -6,8 +6,8 @@ description: A 12,500-hour egocentric manipulation dataset that records human in
 
 hero:
   name: HumanCOIN
-  text: Human intent, at dataset scale.
-  tagline: 12,500 hours of egocentric manipulation. Three measurement tiers. Gaze, surface EMG and EEG on one task ontology and one time base.
+  text: A 12,500-hour dataset for human intent.
+  tagline: Egocentric manipulation, in three measurement tiers that make the intent behind the action observable — on one task ontology and one time base.
   actions:
     - theme: brand
       text: Quick start
@@ -15,25 +15,44 @@ hero:
     - theme: alt
       text: Data portal
       link: https://flagopen.github.io/HumanCOIN-DataManager/
-
-features:
-  - icon: ⏱
-    title: 12,500 hours
-    details: 1.35 B master frames across 38 scene classes and 6 collection sites.
-  - icon: 🎬
-    title: 38 scene classes
-    details: Five functional zones plus a residual class, recorded in real environments.
-  - icon: 🧠
-    title: 3 intent tiers
-    details: L1 attention, L2 exertion and L3 cognition, nested by instrumentation.
-  - icon: 🧩
-    title: LeRobot-style
-    details: One Parquet per stream plus a master index, MP4 video and WAV audio.
 ---
 
-<div class="hc-home-cover">
-  <img src="/assets/cover.jpg" alt="HumanCOIN report cover">
-  <p class="caption">The corpus in one view: three tiers, proxy signals and the scenes behind them. Figure from the report.</p>
+<div class="hc-film">
+  <div class="hc-film-head">
+    <p class="hc-eyebrow">Technical report film · 3:42</p>
+    <h2>HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation</h2>
+    <p class="hc-film-meta">BAAI · AhaData Group · November 2026</p>
+  </div>
+  <div class="hc-film-frame">
+    <video controls autoplay muted loop playsinline preload="metadata" poster="https://flagopen.github.io/HumanCOIN/film/film-poster.jpg" aria-label="HumanCOIN technical report film">
+      <source src="https://flagopen.github.io/HumanCOIN/film/HumanCOIN-film.mp4" type="video/mp4">
+      Your browser does not support the video tag. <a href="https://flagopen.github.io/HumanCOIN/film/HumanCOIN-film.mp4">Open the film</a>.
+    </video>
+  </div>
+  <p class="hc-caption">A three-minute tour of the corpus: the three tiers, the scenes, and the gaze, EMG and EEG signals that make intent observable.</p>
+</div>
+
+<div class="hc-stats">
+  <div class="hc-stat">
+    <strong>≈12,500<span>h</span></strong>
+    <p>Recording volume</p>
+    <small>planned, three tiers</small>
+  </div>
+  <div class="hc-stat">
+    <strong>7</strong>
+    <p>Sensor modalities</p>
+    <small>complementary channels</small>
+  </div>
+  <div class="hc-stat">
+    <strong>3</strong>
+    <p>Acquisition tiers</p>
+    <small>breadth × density</small>
+  </div>
+  <div class="hc-stat">
+    <strong>1</strong>
+    <p>Spatiotemporal reference</p>
+    <small>shared clock and frame</small>
+  </div>
 </div>
 
 <div class="hc-section">
