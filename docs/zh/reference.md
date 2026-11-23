@@ -68,5 +68,5 @@ humancoin-visualize-web --help
 ## 合作机构
 
 <p align="center">
-  <img src="../assets/partners.png" alt="HumanCOIN 合作机构" width="100%">
+  <img src="/assets/partners.png" alt="HumanCOIN 合作机构" width="100%">
 </p>

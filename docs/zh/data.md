@@ -31,7 +31,7 @@ I(a; m \mid o) = \mathbb{E}[\log p(a \mid o, m) - \log p(a \mid o)].
 $$
 
 <p align="center">
-  <img src="../assets/intent-pathway.jpg" alt="动作策略、世界模型与代理信号" width="620">
+  <img src="/assets/intent-pathway.jpg" alt="动作策略、世界模型与代理信号" width="620">
   <br>
   <sub>动作策略把意图折进权重；世界模型预测未来；HumanCOIN 记录意图的代理信号。图源：论文。</sub>
 </p>
@@ -51,7 +51,7 @@ L1 不含肌电和脑电；L2 增加肌电；L3 增加脑电，并在受控子�
 ## 一条 episode
 
 <p align="center">
-  <img src="../assets/episode.jpg" alt="一条受控 L3 episode 的组成" width="100%">
+  <img src="/assets/episode.jpg" alt="一条受控 L3 episode 的组成" width="100%">
   <br>
   <sub>受控 L3 episode，t = 27.6 s：点云与 6-DoF 位姿、同步视角、步骤标注，以及同一时间轴上的注视/肌电/脑电。图源：论文。</sub>
 </p>
@@ -76,7 +76,7 @@ L1 不含肌电和脑电；L2 增加肌电；L3 增加脑电，并在受控子�
 ### 场景
 
 <p align="center">
-  <img src="../assets/scenes.jpg" alt="38 类场景各一张头戴相机画面" width="90%">
+  <img src="/assets/scenes.jpg" alt="38 类场景各一张头戴相机画面" width="90%">
   <br>
   <sub>每个场景类取一帧头戴相机画面，按功能区排列。图源：论文。</sub>
 </p>

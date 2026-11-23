@@ -7,13 +7,13 @@ Two supported routes: the portal with the command it generates, or the same `hum
 The **[HumanCOIN DataManager](https://flagopen.github.io/HumanCOIN-DataManager/)** is the public catalog for released data.
 
 <p align="center">
-  <img src="../assets/portal-explore.png" alt="Explore Datasets: search, filters and dataset cards" width="85%">
+  <img src="/assets/portal-explore.png" alt="Explore Datasets: search, filters and dataset cards" width="85%">
   <br>
   <sub>Explore Datasets: search and compare released repositories; each card exposes its sensor set, size and Preview/Download actions.</sub>
 </p>
 
 <p align="center">
-  <img src="../assets/portal-preview.png" alt="Dataset card with task, sensors, size and Get Download Command" width="65%">
+  <img src="/assets/portal-preview.png" alt="Dataset card with task, sensors, size and Get Download Command" width="65%">
   <br>
   <sub>A dataset card: task, per-stream metadata, episode count, duration, size, license, and Get Download Command.</sub>
 </p>
@@ -109,7 +109,7 @@ export MODELSCOPE_TOKEN
 4. Select the repository, switch the source to **ModelScope**, and generate the command:
 
 <p align="center">
-  <img src="../assets/portal-selection.png" alt="ModelScope selection and Generate Download Command" width="100%">
+  <img src="/assets/portal-selection.png" alt="ModelScope selection and Generate Download Command" width="100%">
   <br>
   <sub>Select complete repositories, choose ModelScope, then Generate Download Command. The same bar exports selection.json.</sub>
 </p>

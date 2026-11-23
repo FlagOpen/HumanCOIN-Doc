@@ -18,7 +18,7 @@ filt=observation.eeg_denoise:hp=0.5,lp=40,notch=50
 ```
 
 <p align="center">
-  <img src="../assets/visualizer.png" alt="HumanCOIN browser visualizer on a real L3 episode" width="100%">
+  <img src="/assets/visualizer.png" alt="HumanCOIN browser visualizer on a real L3 episode" width="100%">
   <br>
   <sub>The browser viewer on a real L3 episode (frame 381/848): camera wall, 3D pose, EMG/IMU and gaze strips on the master timeline.</sub>
 </p>

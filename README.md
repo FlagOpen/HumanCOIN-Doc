@@ -1,31 +1,39 @@
 # HumanCOIN-Doc
 
-Source for the HumanCOIN documentation site. The book is written in GitBook-compatible Markdown and built with [HonKit](https://honkit.netlify.app/).
+Source for the [HumanCOIN documentation site](https://flagopen.github.io/HumanCOIN-Doc/). It is built with [VitePress](https://vitepress.dev/) in a modern, GitBook-style layout.
 
 ## Local development
 
 ```bash
 pnpm install
-pnpm run serve      # http://localhost:4000
+pnpm dev
 ```
 
-The book is bilingual:
+Open <http://localhost:5173/HumanCOIN-Doc/>.
 
-- `en/` — English
-- `zh/` — Chinese
+## Content layout
 
-Each language has its own `SUMMARY.md`; shared images live in `assets/`.
+```text
+docs/
+├── .vitepress/       # config and custom theme
+├── public/assets/    # shared images
+├── index.md          # English home
+├── *.md              # English guides
+└── zh/               # Chinese home and guides
+```
+
+English is the root locale; Chinese is served from `/zh/`.
 
 ## Build
 
 ```bash
-pnpm run build      # writes _book/
+pnpm build
 ```
+
+Output: `docs/.vitepress/dist/`.
 
 ## Deploy
 
-The static build is published from the `gh-pages` branch. In the repository settings, set **Pages → Build and deployment → Source** to **Deploy from a branch**, then choose `gh-pages` / `root`.
+The static build is published from the `gh-pages` branch. In repository settings, set **Pages → Build and deployment → Source** to **Deploy from a branch**, then `gh-pages` / `root`.
 
-To update the site, rebuild and push the generated `_book/` to `gh-pages`.
-
-The content is also GitBook-compatible for later Git Sync: `SUMMARY.md`, `README.md` and standard Markdown are used throughout.
+To update the site, rebuild and push `docs/.vitepress/dist/` to `gh-pages`.

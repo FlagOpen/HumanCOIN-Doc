@@ -68,5 +68,5 @@ humancoin-visualize-web --help
 ## Collaborating institutions
 
 <p align="center">
-  <img src="../assets/partners.png" alt="HumanCOIN collaborating institutions" width="100%">
+  <img src="/assets/partners.png" alt="HumanCOIN collaborating institutions" width="100%">
 </p>

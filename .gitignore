@@ -1,4 +1,6 @@
 node_modules/
 _book/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 .DS_Store
 *.log

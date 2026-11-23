@@ -31,7 +31,7 @@ I(a; m \mid o) = \mathbb{E}[\log p(a \mid o, m) - \log p(a \mid o)].
 $$
 
 <p align="center">
-  <img src="../assets/intent-pathway.jpg" alt="Action policy, world model and proxy-conditioned intent" width="620">
+  <img src="/assets/intent-pathway.jpg" alt="Action policy, world model and proxy-conditioned intent" width="620">
   <br>
   <sub>An action policy folds intent into its weights; a world model predicts the future; HumanCOIN records proxies for intent. Figure from the paper.</sub>
 </p>
@@ -51,7 +51,7 @@ L1 has no EMG or EEG; L2 adds EMG; L3 adds EEG and, in its controlled subset, di
 ## One episode
 
 <p align="center">
-  <img src="../assets/episode.jpg" alt="Anatomy of one controlled L3 episode" width="100%">
+  <img src="/assets/episode.jpg" alt="Anatomy of one controlled L3 episode" width="100%">
   <br>
   <sub>One controlled L3 episode at t = 27.6 s: point cloud and 6-DoF poses, synchronized views, step annotation, and gaze/EMG/EEG on one time axis. Figure from the paper.</sub>
 </p>
@@ -76,7 +76,7 @@ Gaze is a pixel coordinate in the eye-tracker scene camera (controlled L3) or th
 ### Scenes
 
 <p align="center">
-  <img src="../assets/scenes.jpg" alt="One head-camera frame from each of the 38 scene classes" width="90%">
+  <img src="/assets/scenes.jpg" alt="One head-camera frame from each of the 38 scene classes" width="90%">
   <br>
   <sub>One head-camera frame per scene class, grouped by zone. Figure from the paper.</sub>
 </p>

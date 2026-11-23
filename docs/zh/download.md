@@ -7,13 +7,13 @@
 **[HumanCOIN 数据门户](https://flagopen.github.io/HumanCOIN-DataManager/)** 是已发布数据的公开目录。
 
 <p align="center">
-  <img src="../assets/portal-explore.png" alt="Explore Datasets：搜索、筛选与数据卡片" width="85%">
+  <img src="/assets/portal-explore.png" alt="Explore Datasets：搜索、筛选与数据卡片" width="85%">
   <br>
   <sub>Explore Datasets：搜索、比较仓库；每张卡片给出传感器集合、大小以及 Preview/Download。</sub>
 </p>
 
 <p align="center">
-  <img src="../assets/portal-preview.png" alt="数据集卡片：任务、传感器、大小与 Get Download Command" width="65%">
+  <img src="/assets/portal-preview.png" alt="数据集卡片：任务、传感器、大小与 Get Download Command" width="65%">
   <br>
   <sub>数据集卡片：任务、逐流元数据、episode 数、时长、大小、许可与 Get Download Command。</sub>
 </p>
@@ -109,7 +109,7 @@ export MODELSCOPE_TOKEN
 4. 勾选仓库，把数据源切到 **ModelScope**，生成命令：
 
 <p align="center">
-  <img src="../assets/portal-selection.png" alt="ModelScope 选择与 Generate Download Command" width="100%">
+  <img src="/assets/portal-selection.png" alt="ModelScope 选择与 Generate Download Command" width="100%">
   <br>
   <sub>勾选完整仓库，选择 ModelScope，再点 Generate Download Command；同一个选择栏可以导出 selection.json。</sub>
 </p>

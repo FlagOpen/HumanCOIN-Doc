@@ -18,7 +18,7 @@ filt=observation.eeg_denoise:hp=0.5,lp=40,notch=50
 ```
 
 <p align="center">
-  <img src="../assets/visualizer.png" alt="真实 L3 episode 的浏览器可视化器" width="100%">
+  <img src="/assets/visualizer.png" alt="真实 L3 episode 的浏览器可视化器" width="100%">
   <br>
   <sub>真实 L3 episode（第 381/848 帧）：相机墙、3D 位姿、肌电/IMU 与注视信号条共用主时间轴。</sub>
 </p>

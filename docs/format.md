@@ -86,7 +86,7 @@ ds = HumanCOINDataset(
 ```
 
 <p align="center">
-  <img src="../assets/read-path.png" alt="Read path: master index and independent stream clocks" width="700">
+  <img src="/assets/read-path.png" alt="Read path: master index and independent stream clocks" width="700">
   <br>
   <sub>Read path (paper Fig. 6b): the master index defines frame n; each stream is resolved from its own clock. Figure from the paper.</sub>
 </p>
